@@ -9,11 +9,22 @@
   .bg-orange {
       background-color: #ffe0c0;
   }
-  .logo-small {
+  .openwebicons-small {
+      color: #79ac2b;
+      font-size: 60px;
+      position: absolute;
+      top: -0.25em;
+      left: -0.5em;
+      line-height: 1;
+  }
+  .glyphicons-empty {
+      height: 3.4em;
+  }
+  .glyphicons-small {
       color: #79ac2b;
       font-size: 50px;
   }
-  .logo {
+  .glyphicons {
       color: #79ac2b;
       font-size: 200px;
   }

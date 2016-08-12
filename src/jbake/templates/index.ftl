@@ -76,37 +76,37 @@
   <br/>
   <div class="row slideanim">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-eye-open logo-small"></span>
+      <span class="glyphicon glyphicons-empty"><i class="icon-osi openwebicons-small"></i></span>
       <h4>OPEN SOURCE</h4>
       <p>GNU/LGPL v3 permissive license</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span class="glyphicon glyphicons-empty"><i class="icon-cc-nc openwebicons-small"></i></span>
+      <h4>FREE</h4>
+      <p>Provided for free and royalty-free</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>JOB DONE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span class="glyphicon glyphicon-globe glyphicons-small"></span>
+      <h4>UNIVERSAL</h4>
+      <p>Supports wide range of data</p>
     </div>
   </div>
   <br/><br/>
   <div class="row slideanim">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span class="glyphicon glyphicon-fire glyphicons-small"></span>
+      <h4>EFFICIENT</h4>
+      <p>Encodes data in binary form</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span class="glyphicon glyphicon-random glyphicons-small"></span>
+      <h4>FLEXIBLE</h4>
+      <p>Allows to combine data in modular fashion</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span class="glyphicon glyphicon-road glyphicons-small"></span>
+      <h4>DYNAMIC</h4>
+      <p>Handles evoving data and compatibility</p>
     </div>
   </div>
 </div>
