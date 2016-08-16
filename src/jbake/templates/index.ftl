@@ -2,68 +2,60 @@
 	
 	<#include "menu.ftl">
 
-<div id="construction" class="container-fluid bg-orange">
-  <h1>Website is under construction</h1>
-  <p>For now, you can visit one of subprojects:</p>
-  <p><a href="http://xbup.exbin.org" title="Extensible Binary Universal Protocol">Extensible Binary Universal Protocol (xbup.exbin.org)</a>.</p>
-  <p><a href="http://deltahex.exbin.org" title="Delta Hex Editor">Delta Hexadecimal Editor (deltahex.exbin.org)</a>.</p>
-  <p><a href="http://progjazy.exbin.org" title="ProgJazy">ProgJazy Programming Language (progjazy.exbin.org)</a>.</p>
+<!-- Modal HTML -->
+<div id="videoModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Introduction Video</h4>
+            </div>
+            <div class="modal-body">
+                <iframe id="youtubeVideo" width="560" height="315" src="//www.youtube.com/embed/t1oZ163hIdA" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="container">
   <br/>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div id="mainCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#mainCarousel" data-slide-to="1"></li>
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox" style="height: 345px">
+    <div class="carousel-inner" role="listbox">
 
-      <div class="item active">
-        <img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/img_chania.jpg" alt="Chania" width="460" height="345">
+      <div class="item active" style="text-align: center">
+        <p style="background-color: #f0f0ff; height: 300px;">
+          <a href="#videoModal" data-toggle="modal">
+            <img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/carousel1.jpg" alt="Video">
+          </a>
+        </p>
         <div class="carousel-caption">
-          <h3>Chania</h3>
-          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/img_chania2.jpg" alt="Chania" width="460" height="345">
-        <div class="carousel-caption">
-          <h3>Chania</h3>
-          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-        </div>
-      </div>
-    
-      <div class="item">
-        <img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/img_flower.jpg" alt="Flower" width="460" height="345">
-        <div class="carousel-caption">
-          <h3>Flowers</h3>
-          <p>Beatiful flowers in Kolymbari, Crete.</p>
+          <h3>Introduction Video</h3>
+          <p>Play project's introduction video.</p>
         </div>
       </div>
 
-      <div class="item">
-        <img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/img_flower2.jpg" alt="Flower" width="460" height="345">
+      <div class="item" style="text-align: center">
+        <p style="background-color: #e7ffe7; height: 300px;">TEST</p>
         <div class="carousel-caption">
-          <h3>Flowers</h3>
-          <p>Beatiful flowers in Kolymbari, Crete.</p>
+          <h3>TODO</h3>
+          <p>This slide will be added later.</p>
         </div>
       </div>
-  
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <a class="left carousel-control" href="#mainCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <a class="right carousel-control" href="#mainCarousel" role="button" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
@@ -72,7 +64,7 @@
 
 <div id="services" class="container-fluid text-center">
   <h2><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/exbin_project.png" alt="[ExBin Project]"/></h2>
-  <h4>Evolution of binary data storing and processing</h4>
+  <h4 class="quicksand">Evolution of binary data storing and processing</h4>
   <br/>
   <div class="row slideanim">
     <div class="col-sm-4">
