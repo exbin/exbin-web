@@ -30,23 +30,27 @@
     <div class="carousel-inner" role="listbox">
 
       <div class="item active" style="text-align: center">
-        <p style="background-color: #f0f0ff; height: 300px;">
-          <a href="#videoModal" data-toggle="modal">
+        <a href="#videoModal" data-toggle="modal">
+          <p style="background-color: #e7ffe7; height: 300px;">
             <img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/carousel1.jpg" alt="Video">
-          </a>
-        </p>
-        <div class="carousel-caption">
-          <h3>Introduction Video</h3>
-          <p>Play project's introduction video.</p>
-        </div>
+          </p>
+          <div class="carousel-caption">
+            <h3>Introduction Video</h3>
+            <p>Play project's introduction video.</p>
+          </div>
+        </a>
       </div>
 
       <div class="item" style="text-align: center">
-        <p style="background-color: #e7ffe7; height: 300px;">TEST</p>
-        <div class="carousel-caption">
-          <h3>TODO</h3>
-          <p>This slide will be added later.</p>
-        </div>
+        <a href="http://deltahex.exbin.org" data-toggle="modal">
+          <p style="background-color: #306f30; height: 300px;">
+            <img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/carousel2.png" alt="Video">
+          </p>
+          <div class="carousel-caption" style="color: #306f30;">
+            <h3>DeltaHex Editor</h3>
+            <p>Hexadecimal editor written in Java</p>
+          </div>
+        </a>
       </div>
     </div>
 
