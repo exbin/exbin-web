@@ -72,19 +72,19 @@
   <br/>
   <div class="row slideanim">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicons-empty"><i class="icon-osi openwebicons-small"></i></span>
-      <h4>OPEN SOURCE</h4>
-      <p>GNU/LGPL v3 permissive license</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicons-empty"><i class="icon-cc-nc openwebicons-small"></i></span>
-      <h4>FREE</h4>
-      <p>Provided for free and royalty-free</p>
-    </div>
-    <div class="col-sm-4">
       <span class="glyphicon glyphicon-globe glyphicons-small"></span>
       <h4>UNIVERSAL</h4>
       <p>Supports wide range of data</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-random glyphicons-small"></span>
+      <h4>FLEXIBLE</h4>
+      <p>Allows to combine data in modular fashion</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-road glyphicons-small"></span>
+      <h4>DYNAMIC</h4>
+      <p>Handles evolving data and compatibility</p>
     </div>
   </div>
   <br/><br/>
@@ -95,14 +95,14 @@
       <p>Encodes data in binary form</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-random glyphicons-small"></span>
-      <h4>FLEXIBLE</h4>
-      <p>Allows to combine data in modular fashion</p>
+      <span class="glyphicon glyphicons-empty"><i class="icon-cc-nc openwebicons-small"></i></span>
+      <h4>FREE</h4>
+      <p>Provided for free and royalty-free</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-road glyphicons-small"></span>
-      <h4>DYNAMIC</h4>
-      <p>Handles evoving data and compatibility</p>
+      <span class="glyphicon glyphicons-empty"><i class="icon-osi openwebicons-small"></i></span>
+      <h4>OPEN SOURCE</h4>
+      <p>GNU/LGPL v3 permissive license</p>
     </div>
   </div>
 </div>
