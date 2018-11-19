@@ -24,7 +24,7 @@
                 <li><a href="http://catalog.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/xbup_catalog-16x16.png" alt="[XBUP]"/>&nbsp;Data Types Catalog</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Applications</li>
-                <li><a href="http://deltahex.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/deltahex-16x16.png" alt="[XBUP]"/>&nbsp;Hexadecimal Editor [DeltaHex]</a></li>
+                <li><a href="http://bined.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/deltahex-16x16.png" alt="[XBUP]"/>&nbsp;Binary/Hexadecimal Editor [BinEd]</a></li>
               </ul>
             </li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>doc/">Documentation</a></li>

@@ -18,10 +18,14 @@ task wrapper(type: Wrapper, description: 'Creates and deploys the Gradle wrapper
     gradleVersion = '3.2'
 }
 
-task build(dependsOn: 'jbake') << {
+task build {
+    dependsOn 'jbake'
 }
 
-task clean << {
+task clean {
+}
+
+task clean.doLast {
     File buildFolder = rootProject.file("build/jbake")
     if (buildFolder.exists()) {
         project.delete(buildFolder)

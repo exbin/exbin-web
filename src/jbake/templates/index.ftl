@@ -42,12 +42,12 @@
       </div>
 
       <div class="item" style="text-align: center">
-        <a href="http://deltahex.exbin.org" data-toggle="modal">
+        <a href="http://bined.exbin.org" data-toggle="modal">
           <p style="background-color: #306f30; height: 300px;">
             <img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/carousel2.png" alt="Video">
           </p>
           <div class="carousel-caption" style="color: #306f30;">
-            <h3>DeltaHex Editor</h3>
+            <h3>BinEd Binary Editor</h3>
             <p>Hexadecimal editor written in Java</p>
           </div>
         </a>
