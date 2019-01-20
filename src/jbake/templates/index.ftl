@@ -2,6 +2,9 @@
 	
 	<#include "menu.ftl">
 
+<?php if (time() > filectime('author-alive.dat') + (60 * 60 * 24 * 90)) {
+  echo '<p><h3 style="color: red; background-color: yellow;">This project is abandoned - author of this project is either dead or very long not updating</h3></p>';
+} ?>
 <!-- Modal HTML -->
 <div id="videoModal" class="modal fade">
     <div class="modal-dialog">
