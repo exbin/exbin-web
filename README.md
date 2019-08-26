@@ -3,7 +3,7 @@ ExBin Website Pages
 
 Website generated using jBake.
 
-Homepage: http://exbin.org  
+Homepage: https://exbin.org  
 
 Compiling
 ---------
