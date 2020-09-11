@@ -21,7 +21,7 @@
                 <li class="dropdown-header">Subprojects</li>
                 <li><a href="https://xbup.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/xbup-16x16.png" alt="[XBUP]"/>&nbsp;Data Protocol [XBUP]</a></li>
                 <li><a href="https://progjazy.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/progjazy-16x16.png" alt="[ProgJazy]"/>&nbsp;Programming Language [ProgJazy]</a></li>
-                <li><a href="http://catalog.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/xbup_catalog-16x16.png" alt="[Catalog]"/>&nbsp;Data Types Catalog</a></li>
+                <li><a href="https://catalog.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/xbup_catalog-16x16.png" alt="[Catalog]"/>&nbsp;Data Types Catalog</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Applications</li>
                 <li><a href="https://bined.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/bined-16x16.png" alt="[BinEd]"/>&nbsp;Binary/Hexadecimal Editor [BinEd]</a></li>
@@ -35,7 +35,7 @@
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>dev/community.php">Community</a></li>
                 <li class="divider"></li>
                 <li><a href="https://github.com/exbin"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/github-16x16.png" alt="[GitHub]"/>&nbsp;Source Codes [GitHub]</a></li>
-                <li><a href="http://ci.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/jenkins-16x16.gif" alt="[Jenkins]"/>&nbsp;Continous Integration [Jenkins]</a></li>
+                <li><a href="https://ci.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/jenkins-16x16.gif" alt="[Jenkins]"/>&nbsp;Continous Integration [Jenkins]</a></li>
               </ul>
             </li>
           </ul>

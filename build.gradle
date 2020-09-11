@@ -1,32 +1,9 @@
-buildscript {
-  repositories {
-    maven {
-      url 'https://plugins.gradle.org/m2/'
-    }
-  }
-  dependencies {
-    classpath 'me.champeau.gradle:jbake-gradle-plugin:0.2'
-    classpath 'org.asciidoctor:asciidoctorj:1.5.2'
-    classpath 'org.freemarker:freemarker:2.3.20'
-    classpath 'org.pegdown:pegdown:1.4.2'
-  }
+plugins {
+    id 'org.jbake.site' version '5.3.0'
 }
 
-apply plugin: 'me.champeau.jbake'
-
-task build {
-    dependsOn 'jbake'
-}
-
-task clean {
-    doLast {
-        File buildFolder = rootProject.file("build/jbake")
-        if (buildFolder.exists()) {
-            project.delete(buildFolder)
-        }
-    }
-}
+build.dependsOn bake
 
 jbake {
-    version  = '2.4.0'
+    version  = '2.6.5'
 }

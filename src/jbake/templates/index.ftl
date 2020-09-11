@@ -105,7 +105,7 @@
     <div class="col-sm-4">
       <span class="glyphicon glyphicons-empty"><i class="icon-osi openwebicons-small"></i></span>
       <h4>OPEN SOURCE</h4>
-      <p>GNU/LGPL v3 permissive license</p>
+      <p>Apache V2 license</p>
     </div>
   </div>
 </div>
