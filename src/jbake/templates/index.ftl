@@ -37,7 +37,7 @@
           <p style="background-color: #e7ffe7; height: 300px;">
             <img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/carousel1.jpg" alt="Video">
           </p>
-          <div class="carousel-caption">
+          <div class="carousel-caption" style="color: #00003f;">
             <h3>Introduction Video</h3>
             <p>Play project's introduction video.</p>
           </div>
@@ -47,7 +47,7 @@
       <div class="item" style="text-align: center">
         <a href="http://bined.exbin.org" data-toggle="modal">
           <p style="background-color: #306f30; height: 300px;">
-            <img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/carousel2.png" alt="Video">
+            <img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/carousel2.jpg" alt="Video">
           </p>
           <div class="carousel-caption" style="color: #306f30;">
             <h3>BinEd Binary Editor</h3>
