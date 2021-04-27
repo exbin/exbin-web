@@ -25,6 +25,7 @@
                 <li class="divider"></li>
                 <li class="dropdown-header">Applications</li>
                 <li><a href="https://bined.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/bined-16x16.png" alt="[BinEd]"/>&nbsp;Binary/Hexadecimal Editor [BinEd]</a></li>
+                <li><a href="https://comsonica.exbin.org">Comsonica - Audio Studio</a></li>
               </ul>
             </li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>doc/">Documentation</a></li>
