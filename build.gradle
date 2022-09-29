@@ -5,5 +5,5 @@ plugins {
 build.dependsOn bake
 
 jbake {
-    version  = '2.6.5'
+    version  = '2.6.7'
 }
