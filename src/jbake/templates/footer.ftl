@@ -4,7 +4,7 @@
     
     <div id="footer">
       <div class="container">
-        <p class="muted credit">&copy; ExBin Project 2022 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake ${version}</a> | <a href="https://github.com/exbin/exbin-web">Source</a></p>
+        <p class="muted credit">&copy; ExBin Project 2023 | Mixed with <a href="https://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="https://jbake.org">JBake ${version}</a> | <a href="https://github.com/exbin/exbin-web">Source</a></p>
       </div>
     </div>
     
