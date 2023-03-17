@@ -11,10 +11,10 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title">Introduction Video</h4>
+                <h4 class="modal-title">Project Overview Video</h4>
             </div>
             <div class="modal-body">
-                <iframe id="youtubeVideo" width="560" height="315" src="//www.youtube.com/embed/pp1hwHE5kaE" frameborder="0" allowfullscreen></iframe>
+                <iframe id="youtubeVideo" width="560" height="315" src="//www.youtube.com/embed/QvoL8oWzvLI" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -38,8 +38,8 @@
             <img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/carousel1.jpg" alt="Video">
           </p>
           <div class="carousel-caption" style="color: #00003f;">
-            <h3>Introduction Video</h3>
-            <p>Play project's introduction video.</p>
+            <h3>Project Overview Video</h3>
+            <p>Play project overview video.</p>
           </div>
         </a>
       </div>
