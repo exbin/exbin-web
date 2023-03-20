@@ -38,7 +38,7 @@
             <img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/carousel1.jpg" alt="Video">
           </p>
           <div class="carousel-caption" style="color: #00003f;">
-            <h3>Project Overview Video</h3>
+            <h3></h3>
             <p>Play project overview video.</p>
           </div>
         </a>
