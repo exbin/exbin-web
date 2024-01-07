@@ -50,8 +50,8 @@
             <img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/carousel2.jpg" alt="Video">
           </p>
           <div class="carousel-caption" style="color: #306f30;">
-            <h3>BinEd Binary Editor</h3>
-            <p>Hexadecimal editor written in Java</p>
+            <h3>BinEd Binary/Hex Editor</h3>
+            <p>Hex editor written in Java</p>
           </div>
         </a>
       </div>

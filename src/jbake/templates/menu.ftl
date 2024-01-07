@@ -20,11 +20,11 @@
               <ul class="dropdown-menu">
                 <li class="dropdown-header">Subprojects</li>
                 <li><a href="https://xbup.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/xbup-16x16.png" alt="[XBUP]"/>&nbsp;Data Protocol [XBUP]</a></li>
-                <li><a href="https://progjazy.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/progjazy-16x16.png" alt="[ProgJazy]"/>&nbsp;Programming Language [ProgJazy]</a></li>
+                <li><a href="https://dataflow.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/progjazy-16x16.png" alt="[DataFlow]"/>&nbsp;Programming Language [DataFlow]</a></li>
                 <li><a href="https://catalog.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/xbup_catalog-16x16.png" alt="[Catalog]"/>&nbsp;Data Types Catalog</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Applications</li>
-                <li><a href="https://bined.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/bined-16x16.png" alt="[BinEd]"/>&nbsp;Binary/Hexadecimal Editor [BinEd]</a></li>
+                <li><a href="https://bined.exbin.org"><img src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>images/bined-16x16.png" alt="[BinEd]"/>&nbsp;Binary/Hex Editor [BinEd]</a></li>
                 <li><a href="https://comusika.exbin.org">Audio/Music Editor [Comusika]</a></li>
               </ul>
             </li>
